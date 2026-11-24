@@ -1,10 +1,11 @@
 <?php
 /**
  * Handles the Enquiry and Contact forms for the static Viscose clone.
- * Sends every submission to services@viscosecropsolution.com.
+ * Sends every submission to the configured recipient address.
+ * Testing recipient: harithashree3047@gmail.com
  */
 
-$to = 'services@viscosecropsolution.com';
+$to = 'harithashree3047@gmail.com';
 
 $allowedPages = array('enquiry.html', 'contact-us.html');
 $redirect = isset($_POST['redirect']) ? (string) $_POST['redirect'] : 'enquiry.html';
