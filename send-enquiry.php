@@ -5,7 +5,7 @@
  * Testing recipient: harithashree3047@gmail.com
  */
 
-$to = 'harithashree3047@gmail.com';
+$to = 'services@viscosecropsolution.com';
 
 $allowedPages = array('enquiry.html', 'contact-us.html');
 $redirect = isset($_POST['redirect']) ? (string) $_POST['redirect'] : 'enquiry.html';

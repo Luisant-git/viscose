@@ -34,7 +34,7 @@
     ? 'Thank you for contacting us!'
     : 'Something went wrong';
   modal.querySelector('p').textContent = sent
-    ? 'Your enquiry has been sent to harithashree3047@gmail.com. Our team will get back to you shortly.'
+    ? 'Your enquiry has been sent. Our team will get back to you shortly.'
     : (error || 'Please try again or email us directly.');
 
   var ok = modal.querySelector('.form-modal__ok');
